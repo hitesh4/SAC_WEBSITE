@@ -1,13 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
+<meta charset="utf-8" />
+
 
 <style type="text/css">
 
 div#wn { 
 	position:relative; left:4px;
-	width:1150px; height:140px; 
+	width:1100px; height:140px; 
 	overflow:hidden;
-	margin-left:auto;
-	margin-right:auto;
 	}
     
 div#inner1, div#inner2 {
@@ -19,7 +21,21 @@ div#inner1 img {
     
 
 </style>
+<script src="js/dw_con_scroller.js" type="text/javascript"></script>
+<script type="text/javascript">
 
+if ( DYN_WEB.Scroll_Div.isSupported() ) {
+	
+	DYN_WEB.Event.domReady( function() {
+		var wndo = new DYN_WEB.Scroll_Div('wn', 'lyr1');
+		wndo.makeSmoothAuto( {axis:'h', bRepeat:true, repeatId:'rpt1', speed:140, bPauseResume:false} );
+		var wndo2 = new DYN_WEB.Scroll_Div('wn2', 'lyr2');
+		wndo2.makeSmoothAuto( {axis:'h', bRepeat:true, repeatId:'rpt2', speed:60, bPauseResume:true} );
+    
+	});
+}
+
+</script>
 </head>
 <body>
 <div class="row">
@@ -29,7 +45,7 @@ div#inner1 img {
 <div id="wn">
     <div id="lyr1">
         <div id="inner1">
-<span >        
+<span>        
 <img src="img/spons/sponsors/cosponsor.png" width="120" height="80" alt="" />
 <img src="img/spons/sponsors/e2.png" width="120" height="80" alt="" />
 <img src="img/spons/sponsors/e3.png" width="120" height="80" alt="" />
@@ -63,17 +79,5 @@ div#inner1 img {
 </div>
 </div>  
 </div>
-<script src="js/dw_con_scroller.js" type="text/javascript"></script>
-<script type="text/javascript">
-
-if ( DYN_WEB.Scroll_Div.isSupported() ) {
-	
-	DYN_WEB.Event.domReady( function() {
-		var wndo = new DYN_WEB.Scroll_Div('wn', 'lyr1');
-		wndo.makeSmoothAuto( {axis:'h', bRepeat:true, repeatId:'rpt1', speed:140, bPauseResume:true} );
-    
-	});
-}
-
-</script>
 </body>
+</html>

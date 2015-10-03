@@ -3,7 +3,7 @@ $(document).ready(function(){
 		var position_top=$(document).scrollTop();
 		if(position_top>=131){
 			$('.navbar').addClass('navbar-fixed-top');
-			 $(".logo").attr("src", "img/logo.png");
+			 $(".logo").attr("src", "img/kgp.png");
 			
 			
 		}else if(position_top<131){

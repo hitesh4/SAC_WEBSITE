@@ -17,7 +17,7 @@
 			<div class="mycontent">
 			
 				<div class="heading">
-					<h1>Guest Lectures</h1>
+					<h2>Guest Lectures</h2>
 				</div>
 				<div class="myslider">
 					<img src="http://placehold.it/1150x300" >
@@ -31,7 +31,7 @@
 				</div>
 				<hr style="border:1px solid grey">
 				<div class="our_speakers">
-					<h1>Our Speakers</h1>
+					<h2>Our Speakers</h2>
 					<hr style="border:1px solid black">
 					<div class="speaker_images">
 						<div class="img">
@@ -54,19 +54,23 @@
 				</div>
 				<hr style="border:1px solid grey">
 				<div class="videos">
-					<h1>Videos</h1>
+					<h2>Videos</h2>
 					<hr style="border:1px solid black">
 					<div class="vid">
 						<iframe class="frame" src="https://www.youtube.com/embed/gQ2AYloadeY" frameborder="0" allowfullscreen></iframe>
+						<div class="name"> Name</div>
 					</div>
 					<div class="vid">
 						<iframe class="frame" src="https://www.youtube.com/embed/gQ2AYloadeY" frameborder="0" allowfullscreen></iframe>
+						<div class="name"> Name</div>
 					</div>
 					<div class="vid">
 						<iframe class="frame" src="https://www.youtube.com/embed/gQ2AYloadeY" frameborder="0" allowfullscreen></iframe>
+						<div class="name"> Name</div>
 					</div>
 					<div class="vid">
 						<iframe class="frame" src="https://www.youtube.com/embed/gQ2AYloadeY" frameborder="0" allowfullscreen></iframe>
+						<div class="name"> Name</div>
 						<a href="archive.php">
 							<div class="vid_link">
 								View More
@@ -85,6 +89,5 @@
 		</div>
 		<script type="text/javascript" src="js/guest_lectures.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		
 	</body>
 </html>
